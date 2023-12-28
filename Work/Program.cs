@@ -1,11 +1,5 @@
-﻿Console.WriteLine("Введите элементы массива через пробел:");
+﻿﻿Console.WriteLine("Введите элементы массива через пробел:");
 string[] input = Console.ReadLine().Split(' ');
-
-Console.WriteLine("Первоначальный массив:");
-for (int i = 0; i < input.Length; i++)
-{
-    Console.Write(input[i] + " ");
-}
 
 Console.WriteLine();
 
